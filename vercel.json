@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/sidestore.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/sidestore.json", "dest": "/api/sidestore.js" }]
+}
